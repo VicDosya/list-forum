@@ -1,0 +1,196 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    background: #E6E6E6;
+}
+
+
+/* Top Navigation */
+
+.topNavigation {
+    background-color: rgb(88, 88, 88);
+    height: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+#myLogo {
+    width: 50px;
+    margin-left: 10px;
+}
+
+#circleNav {
+    margin-right: 10px;
+    width: 50px;
+    float: right;
+}
+
+/* Title and search bar */
+
+.webTitle {
+    color: #2e2e2e;
+    font-size: 50px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.paragraphTitle {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.searchContainer {
+    gap: 5px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+#searchInput {
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+    display: inline-flex;
+    width: 600px;
+    height: 40px; 
+    border: solid 1px #8f8f8f;
+    border-radius: 5px;
+}
+
+#searchButton {
+    background: #FFFFFF;
+    border: solid 1px #8f8f8f;
+    border-radius: 5px;
+}
+
+#searchButton:hover {
+    cursor: pointer;
+    background: #f0f0f0;
+}
+
+#searchButton:active {
+    cursor: pointer;
+    background: #dadada;
+}
+
+#searchButton img {
+    display: flex;
+    width: 30px;
+}
+
+/* !!The first Post!!  */
+
+.myListContainer {
+    box-shadow: 3px 3px 3px #888888;
+    background: #FFFFFF;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: center;
+    align-content: center;
+    border: solid 1px rgb(231, 231, 231);
+    border-radius: 7px;
+    
+}
+
+.listHeader {
+    font-weight: 400;
+    display: flex;
+    justify-content: left;
+    margin-left: 10px;
+}
+
+.listHeader a {
+    color: black;
+}
+
+.listHeader a:hover {
+    color: rgb(92, 92, 92);
+}
+
+.listHeader a:active {
+    color: rgb(150, 150, 150);
+}
+
+hr {    /* Line break with the title */
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 8px auto;
+    height: 0;
+    width: 95%;
+    max-height: 0;
+    font-size: 1px;
+    line-height: 0;
+    clear: both;
+    border: none;
+    border-top: 1px solid #e9e9e9;
+    border-bottom: 1px solid #ffffff;
+ }
+
+.shortDescription {
+    display: flex;
+    justify-content: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.datePost {
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+}
+
+.buttonContainer {    /* Voting buttons */
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    gap: 15px;
+}
+
+#upVote {
+    background: #E6E6E6;
+    border: solid 1px #404040;
+    border-radius: 5px;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+#downVote {
+    background: #E6E6E6;
+    border: solid 1px #404040;
+    border-radius: 5px;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+    justify-content: center;
+    
+}
+
+#upVote:hover, #downVote:hover {
+    background: #f0f0f0;
+    cursor: pointer;
+}
+
+#upVote:active, #downVote:active {
+    background: #cacaca;
+    cursor: pointer;
+}
+
+.plusVotes {        /* Voting numbers */
+    display: flex;
+    margin-right: -5px;
+    margin-top: 3px;
+}
+
+.minusVotes {
+    display: flex;
+    margin-right: -5px;
+    margin-top: 3px;
+}
