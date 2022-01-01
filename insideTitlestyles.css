@@ -126,6 +126,7 @@ hr {    /* Line break with the title */
     justify-content: left;
     margin-right: 10px;
     margin-left: 10px;
+
 }
 
 #paragraphImg {
@@ -134,21 +135,26 @@ hr {    /* Line break with the title */
     margin: auto;
 }
 
+.buttonDate {
+    display: flex;
+    float:left;
+}
+
 .datePost {
     display: flex;
-    justify-content: left;
+    justify-content: right;
+    margin-right: 10px;
 }
 
 .buttonContainer {    /* Voting buttons */
     display: flex;
-    justify-content: flex-end;
-    margin-right: 10px;
+    margin-left: 10px;
     gap: 15px;
+    margin-top: 15px;
 }
 
 #upVote {
-    background: #E6E6E6;
-    border: solid 1px #404040;
+    border: none;
     border-radius: 5px;
     text-align: center;
     width: 25px;
@@ -158,8 +164,7 @@ hr {    /* Line break with the title */
 }
 
 #downVote {
-    background: #E6E6E6;
-    border: solid 1px #404040;
+    border: none;
     border-radius: 5px;
     text-align: center;
     width: 25px;
