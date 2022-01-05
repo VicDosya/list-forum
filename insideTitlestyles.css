@@ -121,7 +121,7 @@ hr {    /* Line break with the title */
     border-bottom: 1px solid #ffffff;
  }
 
-.shortDescription {
+.longDescription {
     display: flex;
     justify-content: left;
     margin-right: 10px;
